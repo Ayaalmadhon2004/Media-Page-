@@ -1,0 +1,74 @@
+.containerS2 {
+    background: linear-gradient(135deg, var(--purple), var(--pink));
+    color: white;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.containerS2 h1, .containerS2 h3 {
+    margin: 1rem 0;
+}
+
+.input-group {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerS2 input {
+    border: none;
+    padding: .9rem;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+.containerS2 input:first-of-type {
+    border-radius: 1rem 0 0 1rem; 
+}
+
+.containerS2 input[type="email"] {
+    border-radius: 0;
+}
+
+.containerS2 button {
+    border: none;
+    padding: .9rem;
+    border-radius: 0 1rem 1rem 0;
+    font-size: 1.4rem;
+    background-color: var(--purple);
+    color: #fff;
+}
+
+.containerS2 button:hover {
+    background-color: var(--pink);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .containerS2 {
+        padding: 20px;
+    }
+    
+    .input-group {
+        display: block;
+    }
+    
+    .containerS2 input, .containerS2 button {
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .containerS2 {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+    .containerS2 {
+        padding: 35px;
+    }
+}

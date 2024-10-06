@@ -1,0 +1,45 @@
+.containerF {
+    background: linear-gradient(to right, var(--pink), var(--purple));
+    padding: 40px 80px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .containerF p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .containerF span {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Media Queries for smaller screens */
+  @media screen and (max-width: 992px) {
+    .containerF {
+      padding: 20px 40px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .containerF {
+      padding: 20px 30px;
+    }
+  
+    .containerF p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .containerF {
+      padding: 10px 20px;
+    }
+  
+    .containerF p {
+      font-size: 0.8rem;
+    }
+  }
+  

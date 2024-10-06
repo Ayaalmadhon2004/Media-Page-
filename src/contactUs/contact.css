@@ -1,0 +1,161 @@
+.containerC {
+    padding: 40px 80px;
+  }
+  
+  .topC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .topC h4,
+  .topC h1 span {
+    color: var(--purple);
+  }
+  
+  .bottomC {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 200px;
+  }
+  
+  .leftC {
+    margin-right: 2rem;
+    width: 40%;
+  }
+  
+  .rightC {
+    width: 60%;
+  }
+  
+  .leftC img {
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .icon {
+    box-shadow: 2px 2px 5px rgb(238, 237, 237);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    width: 150px;
+  }
+  
+  .icon img {
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 50px;
+    margin: 0.5rem 0;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form textarea {
+    height: 150px;
+    width: 90%;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submit-btn {
+    width: 30%;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: var(--purple);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .containerC {
+      padding: 40px 20px;
+    }
+  
+    .bottomC {
+      flex-direction: column;
+      padding: 20px 0;
+    }
+  
+    .leftC img {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .form input,
+    .form textarea {
+      width: 100%;
+    }
+  
+    .submit-btn {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .topC {
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+    }
+  
+    .bottomC {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+  
+    .leftC img {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .icon {
+      width: 100px;
+      padding: 1rem;
+      margin: 10px 0;
+    }
+  
+    .form input,
+    .form textarea {
+      width: 100%;
+    }
+  
+    .submit-btn {
+      width: 100%;
+    }
+  }
+  

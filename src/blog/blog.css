@@ -1,0 +1,141 @@
+.containerB {
+    padding: 40px 80px;
+  }
+  
+  .containerB h6, .containerB h1 span {
+    color: var(--purpule);
+    font-weight: bold;
+  }
+  
+  .containerB1 {
+    padding: 40px 300px;
+  }
+  
+  .containerB h6, h1 {
+    text-align: center;
+  }
+  
+  .subBCont {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .textb {
+    box-shadow: 0 2px #dfdfdf;
+    padding: 1.1rem;
+    border-radius: 2rem;
+    max-width: 540px;
+  }
+  
+  .textb p:first-of-type {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .textb .btn-span {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .author img {
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .itemB {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  
+  .itemB-left img {
+    border-radius: 1rem;
+  }
+  
+  .itemB-right p:first-of-type {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  .itemB-right p:last-of-type {
+    color: gray;
+  }
+  
+  @media screen and (max-width: 1092px) {
+    .containerB1 {
+      padding: 40px 100px;
+    }
+  
+    .subBCont {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .subB-right, .subB-left {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .containerB1 {
+      padding: 40px 50px;
+    }
+  
+    .subB-right {
+      width: 100%;
+    }
+  
+    .itemB-right p {
+      width: 300px;
+    }
+  
+    .itemB {
+      gap: 1rem;
+    }
+  
+    .textb {
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-title {
+      text-align: start;
+      margin-left: 1rem;
+    }
+  
+    .subBCont {
+      margin-left: -1rem;
+    }
+  
+    .textb {
+      width: 100%;
+    }
+  
+    .itemB {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .author {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .img1 img{
+      width:420px;
+      height:auto;
+      border-radius: 1rem;
+
+    }
+  }
+  

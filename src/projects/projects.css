@@ -1,0 +1,82 @@
+.containerP {
+    padding: 40px 80px;
+  }
+  
+  .textP {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .textP h1 span {
+    color: var(--purple);
+  }
+  
+  .projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+  }
+  
+  .proj1 {
+    box-shadow: 2px 2px 2px 2px rgb(236, 236, 236);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    width: 22%; /* Set a width to control the items in the row */
+    margin-bottom: 1rem;
+  }
+  
+  .proj1:hover {
+    transform: scale(1.05);
+  }
+  
+  .proj1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+  
+  @media screen and (max-width: 1092px) {
+    .proj1 img {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .proj1 {
+      width: 45%; /* Adjust width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .textP {
+      margin-left: 0;
+    }
+  
+    .proj1 {
+      width: 100%; /* Full width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .containerP {
+      padding: 20px;
+    }
+  
+    .textP {
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+    .proj1 img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .proj1 {
+      width: 100%;
+    }
+  }
+  
